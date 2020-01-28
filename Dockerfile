@@ -8,4 +8,4 @@ RUN make
 
 EXPOSE 18080
 
-CMD [ "bin/server", "-t", "templates", "-s", "static" ]
+CMD [ "make", "run" ]
