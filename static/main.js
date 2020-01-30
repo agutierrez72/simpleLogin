@@ -13,11 +13,13 @@ $(document).ready(function(){
             // Success
             var msg = "Hello " + name;
             document.getElementById("demo").innerHTML = msg;
+            
         }
         else{
             alert("Invalid Entry");
         }
-        
+        //clear textbox after click
+        document.getElementById("textbox").value= "";
         //alert(msg);
     })
 });
