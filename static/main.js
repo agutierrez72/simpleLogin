@@ -17,8 +17,8 @@ $(document).ready(function(){
         if (name.match(/^[a-zA-Z_\s]+$/) && pwd != "") {
             // Success
             var msg = "Hello " + name;
-            document.getElementById("demo").innerHTML = msg;
-            document.getElementById("demo2").innerHTML = pwd;
+            // document.getElementById("demo").innerHTML = msg;
+            // document.getElementById("demo2").innerHTML = pwd;
             
         }
         if(name == "" && pwd== "")
